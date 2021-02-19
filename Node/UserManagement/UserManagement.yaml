@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: UserManagement
+    spec:
+      containers:
+      - name: UserManagement
+        image: UserManagement
+        ports:
+        - containerPort: 3000
+# to run multiple Docker file we need Kubernetes
