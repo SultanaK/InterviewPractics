@@ -1,0 +1,27 @@
+/// angualr1 Vs angular2
+
+// Typescript Vs Javascript
+// angular2 >angular4 > amgular5 >angular6 > angular10 
+//Transpiling
+//What is Single page application? and why? --- react, angular, Vue, 
+// MVC vs SPA
+port:4200
+//Router Component  --- listen for event
+
+var x : string
+var y :number
+var x :any
+
+Angular CLI ->
+npm install @angular/cli -g  
+ng new projectName
+
+//selector: Attribute, Element, class
+//componen
+// In line CSS
+
+// create new componenng 
+ng generate component projectName
+ng g c name
+
+create 2 components -> other and another 
