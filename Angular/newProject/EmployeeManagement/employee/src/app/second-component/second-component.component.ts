@@ -11,5 +11,5 @@ export class SecondComponentComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  title = "Second";
 }

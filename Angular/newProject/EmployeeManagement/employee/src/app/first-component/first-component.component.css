@@ -4,3 +4,17 @@ p{
   font-weight: 800;
   text-align: center;
 }
+img{
+  padding: 10%;
+  height:80%;
+  width: 80%;
+}
+
+.description{
+background-color: aquamarine;
+text-align: center;
+}
+
+.size{
+  font: 800;
+}

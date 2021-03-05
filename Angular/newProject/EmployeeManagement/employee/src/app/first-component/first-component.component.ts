@@ -11,5 +11,17 @@ export class FirstComponentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  title = "Learn Full stack web development";
+  subject = "Learn Angular";
+  person = {
+    fName: "Khandaker",
+    lName: "Sultana",
+    img: "http://lorempixel.com/g/400/200",
+    active: true,
+    description:"Person gardening"
+  }
 
+  sayHi() {
+    return "Hello from "
+  }
 }

@@ -1,1 +1,45 @@
 <p>first-component works!</p>
+
+ <!-- <img src="../../assets/images/portfoliome.png" alt="">  -->
+ 
+
+ <h1>Title:{{title}}</h1>
+ 
+ <br>
+ 
+ Subject:{{subject}}
+
+ <br>
+
+ Name:{{person.fName}}
+
+ <br>
+
+ Hello: {{sayHi()}}
+
+ <br>
+
+<!--  <img src="{{person.img}}" alt=""> -->
+ <!-- <img [src]="person.img" alt=""> -->
+
+ <span [style.color]="'red'">
+
+  {{person.description}}
+ 
+</span>
+ <span [style.color]="person.active ? 'blue' :'red'">
+
+  {{person.description}}
+
+  <br>
+  <hr>
+</span>
+<span [ngStyle]="{'color': person.active ? 'blue' : 'red' , 'background-color': person.active ? 'light-gray': 'light-pink'}">
+  {{person.description}}
+</span>
+
+<br>
+<hr>
+<span [ngClass]="{'description' : person.active ? 'red' : 'gray', 'size' : person.active ? 1000 : 2000}">
+{{person.description}}
+</span>

@@ -1,0 +1,16 @@
+<h4>two-way-binding works!</h4>
+
+States: <input type="text" [(ngModel)]="state">
+
+<button type="button" (click)="printState()">
+    Print State
+</button>
+<p>
+  {{state}}
+</p>
+
+<hr>
+
+Country: <input type="text" [(ngModel)]="country" (ngModelChange)= "country=$event">
+
+Enter coutry: {{country}}
